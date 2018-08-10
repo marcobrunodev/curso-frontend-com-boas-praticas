@@ -1,10 +1,16 @@
-button {
+a {
+    display: inline-block;
+    font-family: 'Open sans', sans-serif;
     background-color: #754EF9;
     border: none;
     border-radius: 25px;
     color: #FFF;
-    width: 202px;
+    padding-left: 30px;
+    padding-right: 30px;
     height: 50px;
+    line-height: 50px;
     font-size: 15px;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
 }
