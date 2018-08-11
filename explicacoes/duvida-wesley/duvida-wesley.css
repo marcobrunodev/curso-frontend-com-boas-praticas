@@ -52,13 +52,16 @@ body {
 
   section figure {
     display: inline-block;
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
+    
+   
     overflow: hidden;
-    border: 5px double red;
+    
   }
 
   section img {
-    height: 100%;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 5px double red;
   }
