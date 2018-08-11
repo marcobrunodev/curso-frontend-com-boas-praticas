@@ -1,0 +1,7 @@
+img {
+    /* w352+h352 => forma de gerar widht e height com emmet */
+    border: 15px solid #754ef9;
+    width: 352px;
+    height: 352px;
+    border-radius: 50%;
+}
