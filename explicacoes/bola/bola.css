@@ -1,7 +1,21 @@
+figure {
+    background-color: #FFF;
+    border: 15px solid #754ef9;
+    border-radius: 50%;
+    width: 514px;
+    height: 514px;
+    position: relative;
+}
+
 img {
     /* w352+h352 => forma de gerar widht e height com emmet */
     border: 15px solid #754ef9;
     width: 352px;
     height: 352px;
     border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
 }
