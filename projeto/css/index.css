@@ -14,22 +14,15 @@ a {
     color: #101010;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 42px;
 }
 
 #btn {
     /* bgc#754ef9 */
     background-color: #754ef9;
     color: #ffffff;
-    /* padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 14px;
-    padding-bottom: 14px; */
-
-    /* padding: top right bottom left; */
     padding: 14px 45px 14px 45px;
 
-    /* margin: top right bottom left; */
-    margin: 45px 10px 10px 60px;
-
     border-radius: 100px;
+    margin-right: 0;
 }
