@@ -1,0 +1,16 @@
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+h1 {
+   /* fz35  */
+   font-size: 35px;
+}
+
+a {
+    font-size: 15px;
+    /* c#101010 */
+    color: #101010;
+    text-decoration: none;
+    text-transform: uppercase;
+}
