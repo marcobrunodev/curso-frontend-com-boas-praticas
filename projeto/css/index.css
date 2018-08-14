@@ -3,9 +3,14 @@ body {
 }
 
 h1 {
-   /* fz35  */
-   font-size: 35px;
-   font-weight: 400;
+    /* fz35  */
+    font-size: 35px;
+    font-weight: 400;
+    float: left;
+}
+
+nav {
+    float: right;
 }
 
 a {
@@ -18,6 +23,8 @@ a {
 }
 
 #btn {
+    /* dib */
+    display: inline-block;
     /* bgc#754ef9 */
     background-color: #754ef9;
     color: #ffffff;
@@ -25,4 +32,5 @@ a {
 
     border-radius: 100px;
     margin-right: 0;
+    border: 1px solid #FFF;
 }
