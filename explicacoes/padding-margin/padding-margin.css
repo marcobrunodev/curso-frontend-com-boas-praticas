@@ -2,9 +2,10 @@ a {
     color: #ffffff;
 }
 
+/* no developer o que aparece na cor roxa é padding */ 
 #padding {
     display: inline-block;
-    background-color: red;
+    background-color: #AAA;
     /* padding-left: 45px;
     padding-right: 45px;
     padding-top: 14px;
@@ -23,9 +24,11 @@ a {
     padding: 45px;
 }
 
+/* no developer o que aparece na cor amarela e margin */
 #margin {
     display: inline-block;
     background-color: blue;
+    border: 4px solid maroon;
     /* margin-left: 45px;
     margin-right: 45px;
     margin-top: 14px;
