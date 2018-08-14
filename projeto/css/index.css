@@ -2,15 +2,29 @@ body {
     font-family: 'Open sans', sans-serif;
 }
 
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    text-align: justify;
+}
+
 h1 {
     /* fz35  */
     font-size: 35px;
     font-weight: 400;
-    float: left;
+    display: inline-block;
 }
 
 nav {
-    float: right;
+    display: inline-block;
 }
 
 a {
