@@ -10,4 +10,10 @@
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    opacity: 1;
 }
