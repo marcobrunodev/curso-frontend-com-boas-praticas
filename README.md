@@ -2,10 +2,10 @@
 
 ## Pré-requisitos
 - Ter um navegador instalado
-- VSCode, Atom, Sublime ou qualuqer outro editor de texto instalado
+- VSCode, Atom, Sublime Text ou qualquer outro editor de texto instalado
 
 ## Criar components
-### O que aprendemos
+### O que aprenderemos
 - Browser, só existe o Firefox
     - Developer Tools
 
@@ -14,7 +14,7 @@
     - Tags do HTML5
 
 - CSS
-    - seletores por tag
+    - Seletores por tag
     - Seletores por id
     - Seletores por class
     - pseudo-class
@@ -55,7 +55,7 @@
         - getAttribute()
         - setAttribute()
 
-### O que é feito
+### O que será feito
 - Texto grande caixa pequena
 - Botão
 - Header fixo
@@ -69,7 +69,7 @@ A cada componente que for finalizado, será proposto um desafio.
 
 ## Projeto
 
-### O que é feito
+### O que será feito
 - Portifolio
 - HTTP
 - Git e GitHub tudo por command line
