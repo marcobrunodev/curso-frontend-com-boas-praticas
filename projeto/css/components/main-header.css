@@ -1,0 +1,15 @@
+.main-header {
+    text-align: justify;
+}
+
+.main-header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.main-header .logo {
+    font-size: 35px;
+    font-weight: 400;
+    display: inline-block;
+}
