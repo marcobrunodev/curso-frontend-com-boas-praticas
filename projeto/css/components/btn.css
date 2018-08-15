@@ -1,0 +1,13 @@
+/* #btn = procurando no HTML uma tag que tenha o atributo id com o valor btn */
+/* .btn = prpcurando todos as tags que tem o atributo class com o valor btn dentro dela */
+.btn {
+    display: inline-block;
+    padding: 14px 45px 14px 45px;
+    border-radius: 100px;
+    margin-right: 0;
+    border: 1px solid #FFF;
+    background-color: #754ef9;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}

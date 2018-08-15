@@ -1,6 +1,4 @@
-body {
-    font-family: 'Open sans', sans-serif;
-}
+
 
 header::after {
     content: '';
@@ -36,15 +34,3 @@ a {
     margin-right: 42px;
 }
 
-#btn {
-    /* dib */
-    display: inline-block;
-    /* bgc#754ef9 */
-    background-color: #754ef9;
-    color: #ffffff;
-    padding: 14px 45px 14px 45px;
-
-    border-radius: 100px;
-    margin-right: 0;
-    border: 1px solid #FFF;
-}
