@@ -1,0 +1,18 @@
+.social-media .action {
+    display: block;
+    text-indent: -9999px;
+
+    background-repeat: no-repeat;
+}
+
+.social-media [href*='facebook'] {
+    background-image: url(../../img/facebook.svg);
+}
+
+.social-media [href*='twitter'] {
+    background-image: url(../../img/twitter.svg);
+}
+
+.social-media [href*='linkedin'] {
+    background-image: url(../../img/linkedin.svg);
+}

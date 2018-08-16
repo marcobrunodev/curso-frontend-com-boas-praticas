@@ -14,7 +14,7 @@
 }
 
 .play-video::before {
-    content: '';
+    content: 'oi';
     /* border-top: 10px solid transparent;
     border-right: 12px solid transparent;
     border-bottom: 10px solid transparent;
@@ -27,6 +27,5 @@
     height: 0;
     position: absolute;
     top: 30px;
-    left: 34px;
-    
+    left: 34px;   
 }
