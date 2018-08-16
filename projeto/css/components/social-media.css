@@ -3,16 +3,20 @@
     text-indent: -9999px;
 
     background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
 }
 
-.social-media [href*='facebook'] {
+.social-media .-facebook {
     background-image: url(../../img/facebook.svg);
+    margin-bottom: 26px;
 }
 
-.social-media [href*='twitter'] {
+.social-media .-twitter {
     background-image: url(../../img/twitter.svg);
+    margin-bottom: 26px;
 }
 
-.social-media [href*='linkedin'] {
+.social-media .-linkedin {
     background-image: url(../../img/linkedin.svg);
 }
