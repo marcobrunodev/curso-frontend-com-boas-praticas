@@ -1,0 +1,17 @@
+.title-rotate {
+    font-weight: 400;
+    font-size: 18px;
+    color: #754ef9;
+    text-transform: uppercase;
+}
+
+.title-rotate::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 55px;
+    background-color: #754ef9;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 30px;
+}

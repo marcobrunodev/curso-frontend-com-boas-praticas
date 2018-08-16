@@ -1,3 +1,7 @@
+.social-media .item:not(:last-child) {
+    margin-bottom: 26px;
+}
+
 .social-media .action {
     display: block;
     text-indent: -9999px;
@@ -9,12 +13,10 @@
 
 .social-media .-facebook {
     background-image: url(../../img/facebook.svg);
-    margin-bottom: 26px;
 }
 
 .social-media .-twitter {
     background-image: url(../../img/twitter.svg);
-    margin-bottom: 26px;
 }
 
 .social-media .-linkedin {
