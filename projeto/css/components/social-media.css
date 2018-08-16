@@ -1,3 +1,7 @@
+.social-media {
+    padding-top: 250px;
+}
+
 .social-media .item:not(:last-child) {
     margin-bottom: 26px;
 }

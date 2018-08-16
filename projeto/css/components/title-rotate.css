@@ -1,8 +1,25 @@
+section {
+    position: relative;
+}
+
+/* 
+    Regras do position: absolute;
+    - Cria um novo contexto (fica a frente do contexto padrão do browser)
+    - A referencia top, left, bottom, rigth é a janela
+    - Podemos mudar a referencia, pra fazer isso a gente só mudar o position do pai diferente
+    de static
+*/ 
+
 .title-rotate {
+    position: absolute;
+    top: 0;
+    left: 0;
     font-weight: 400;
     font-size: 18px;
     color: #754ef9;
     text-transform: uppercase;
+    transform-origin: left bottom;
+    transform: rotate(90deg);
 }
 
 .title-rotate::after {
