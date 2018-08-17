@@ -1,12 +1,10 @@
 .play-video {
-    display: block;
+    display: inline-block;
     position: relative;
-    /* w78+h78 */
     width: 78px;
     height: 78px;
     border-radius: 50%;
 
-    /* bgc:red */
     background-color: #FFF;
     box-shadow: 0 5px 15px 0 rgba(117, 78, 249, 0.16);
 
@@ -14,11 +12,7 @@
 }
 
 .play-video::before {
-    content: 'oi';
-    /* border-top: 10px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 12px solid #754ef9; */
+    content: '';
     border-style: solid;
     border-width: 10px 12px;
     border-color: transparent transparent transparent #754ef9;
