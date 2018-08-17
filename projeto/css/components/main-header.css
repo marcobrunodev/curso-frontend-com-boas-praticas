@@ -1,5 +1,11 @@
 .main-header {
     text-align: justify;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 28px;
+    padding-left: 140px;
+    padding-right: 140px;
+    width: 100%;
 }
 
 .main-header::after {
@@ -12,4 +18,5 @@
     font-size: 35px;
     font-weight: 400;
     display: inline-block;
+    color: #FFF;
 }
