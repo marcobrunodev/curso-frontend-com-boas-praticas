@@ -6,6 +6,9 @@
 }
 
 .avatar-profile .photo {
+    width: 352px;
+    height: 352px;
+    object-fit: cover;
     border-radius: 50%;
     border: 24px solid #754ef9;
     float: left;
