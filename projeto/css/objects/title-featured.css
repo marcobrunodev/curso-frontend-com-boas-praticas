@@ -1,0 +1,9 @@
+.title-featured {
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-featured .featured {
+    color: #754ef9;
+}
