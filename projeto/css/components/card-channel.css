@@ -1,0 +1,10 @@
+.card-channel {
+    /* w292+h460 */
+    box-sizing: border-box;
+    width: 292px;
+    height: 460px;
+    padding-top: 70px;
+    padding-bottom: 65px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
