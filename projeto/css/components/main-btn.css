@@ -12,8 +12,20 @@
     text-decoration: none;
     opacity: 0.9;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .main-btn:hover {
     opacity: 1;
+}
+
+.main-btn.-card {
+    border-radius: 0;
+    padding: 9px 35px;
+    font-size: 11px;
+}
+
+.main-btn a {
+    color: inherit;
+    text-decoration: inherit;
 }
