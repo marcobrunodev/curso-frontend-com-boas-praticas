@@ -2,6 +2,9 @@
   display: inline-block;
   position: relative;
   background-color: #754ef9;
+  background-image: url(../../img/baby.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 728px;
   height: 362px;
   vertical-align: top;
