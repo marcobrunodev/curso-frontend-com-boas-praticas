@@ -13,12 +13,14 @@
   height: 362px;
   vertical-align: top;
   color: #f3f3f3;
+  transform-origin: left center;
+  transform: scale(1);
 
   transition: transform 200ms linear;
 }
 
 .main-card.-isActive {
-  transform: scale(1.5);
+  transform: scale(1.502);
 }
 
 .main-card .content {
