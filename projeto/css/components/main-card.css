@@ -13,6 +13,12 @@
   height: 362px;
   vertical-align: top;
   color: #f3f3f3;
+
+  transition: transform 200ms linear;
+}
+
+.main-card.-isActive {
+  transform: scale(1.5);
 }
 
 .main-card .content {

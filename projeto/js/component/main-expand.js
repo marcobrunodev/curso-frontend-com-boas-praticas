@@ -1,7 +1,8 @@
 var mainExpand = window.document.querySelector(".main-expand");
+var mainCard = window.document.querySelector(".main-card");
 
 function clickMainExpand() {
-  console.log("ae");
+  mainCard.classList.add("-isActive");
 }
 
 mainExpand.addEventListener("click", clickMainExpand);
