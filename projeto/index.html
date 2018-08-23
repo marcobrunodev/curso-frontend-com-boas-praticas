@@ -163,20 +163,27 @@
 
         <div class="main-carousel">
             <ol class="cards">
-                <li class="card"></li>
-                <li class="card"></li>
-                <li class="card"></li>
+                <li id="first" class="card"></li>
+                <li id="second" class="card -isActive"></li>
+                <li id="third" class="card"></li>
             </ol>
 
             <ol class="bullets">
-                <li class="bullet"><a href="">Primeiro</a></li>
-                <li class="bullet -isActive"><a href="">Segundo</a></li>
-                <li class="bullet"><a href="">Terceiro</a></li>
+                <li class="bullet">
+                    <a href="#first">Primeiro</a>
+                </li>
+                <li class="bullet -isActive">
+                    <a href="#second">Segundo</a>
+                </li>
+                <li class="bullet">
+                    <a href="#third">Terceiro</a>
+                </li>
             </ol>
         </div>
     </section>
 
     <script src="js/component/main-expand.js"></script>
+    <script src="js/component/main-carousel.js"></script>
 </body>
 
 </html>
