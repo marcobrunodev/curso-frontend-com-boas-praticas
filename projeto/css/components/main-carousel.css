@@ -12,6 +12,8 @@
   transform-origin: left center;
   transform: translateX(-50%);
   opacity: 0;
+  font-size: 40px;
+  text-align: center;
 
   transition: all 1s linear;
 }

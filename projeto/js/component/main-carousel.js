@@ -23,12 +23,14 @@ $bullet.forEach((item) => {
 })
 
 function clickInBullet() {
+  var $bulletClicked = this
+
   $bulletIsActive.classList.remove('-isActive')
-  this.classList.add('-isActive')
-  $bulletIsActive = this
+  $bulletClicked.classList.add('-isActive')
+  $bulletIsActive = $bulletClicked
 
   $cardIsActive.classList.remove('-isActive')
-  var idCard = this.querySelector('a').getAttribute('href')
+  var idCard = $bulletClicked.querySelector('a').getAttribute('href')
   var $targetCard = document.querySelector(idCard)
   $targetCard.classList.add('-isActive')
   $cardIsActive = $targetCard
