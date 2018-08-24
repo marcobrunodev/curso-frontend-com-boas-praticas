@@ -11,17 +11,21 @@
   left: 50%;
   transform-origin: left center;
   transform: translateX(-50%);
-  opacity: 0;
   font-size: 40px;
   text-align: center;
 
-  transition: all 1s linear;
+  transition: transform 400ms linear;
 }
 
+.main-carousel .card.-left {
+  transform: translateX(-58%);
+}
+.main-carousel .card.-right {
+  transform: translateX(-42%);
+}
 .main-carousel .card.-isActive {
-  background-color: red;
+  background-color: #FFF;
   transform: scale(1.1) translateX(-50%);
-  opacity: 1;
   z-index: 1;
 }
 
