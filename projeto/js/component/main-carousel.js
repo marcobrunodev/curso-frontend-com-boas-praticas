@@ -16,9 +16,17 @@ var $bulletIsActive = document.querySelector('.bullet.-isActive')
 
 // index = index + 1 == index++ 
 
-for (var index = 0; index < $bullet.length; index++) {
-  $bullet[index].addEventListener('click', clickInBullet)
-}
+// for (var index = 0; index < $bullet.length; index++) {
+//   $bullet[index].addEventListener('click', clickInBullet)
+// }
+
+// $bullet.forEach(function (item) {
+//   item.addEventListener('click', clickInBullet)
+// })
+
+$bullet.forEach((item) => {
+  item.addEventListener('click', clickInBullet)
+})
 
 function clickInBullet() {
   $bulletIsActive.classList.remove('-isActive')
