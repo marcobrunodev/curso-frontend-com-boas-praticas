@@ -11,13 +11,15 @@
   left: 50%;
   transform-origin: left center;
   transform: translateX(-50%);
+  opacity: 0;
 
-  transition: transform 200ms linear;
+  transition: all 1s linear;
 }
 
 .main-carousel .card.-isActive {
   background-color: red;
   transform: scale(1.1) translateX(-50%);
+  opacity: 1;
   z-index: 1;
 }
 

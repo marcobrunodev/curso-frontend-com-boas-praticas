@@ -1,9 +1,10 @@
 /*
-  Obejtivo: Clicar em qualquer um dos bullets, tirar o -isActive do bullet que estiver com ela
+  Objetivo: Fazer com que o card relacionado com o bullet tem a class -isActive
 
-  1 - Pegar o elemento bullet que está com a class -isActive
-  2 - Remove a class -isActive desse elemento quando clicar no primeiro bullet
-  3 - Remvoe a class -isActive desse elemento quando qualquer bullet sofrer o evento de click
+  1 - Pegar o card que está ativo no momento que o navegador carrega o nosso JS
+  2 - Pegar o card relacionado com o bullet
+  3 - Remover o class -isActive do card que está com ela no momento que o navegador carrega o nosso site
+  4 - Adicionar a class -isActive para este card
 */
 
 /* 
@@ -13,16 +14,9 @@
 
 var $bullet = document.querySelectorAll('.bullet')
 var $bulletIsActive = document.querySelector('.bullet.-isActive')
+var $cardIsActive = document.querySelector('.card.-isActive')
 
-// index = index + 1 == index++ 
-
-// for (var index = 0; index < $bullet.length; index++) {
-//   $bullet[index].addEventListener('click', clickInBullet)
-// }
-
-// $bullet.forEach(function (item) {
-//   item.addEventListener('click', clickInBullet)
-// })
+console.log($cardIsActive)
 
 $bullet.forEach((item) => {
   item.addEventListener('click', clickInBullet)
@@ -32,7 +26,14 @@ function clickInBullet() {
   $bulletIsActive.classList.remove('-isActive')
   this.classList.add('-isActive')
   $bulletIsActive = this
+
+  $cardIsActive.classList.remove('-isActive')
+  var idCard = this.querySelector('a').getAttribute('href')
+  var $targetCard = document.querySelector(idCard)
+  $targetCard.classList.add('-isActive')
+  $cardIsActive = $targetCard
 }
+
 
 
 
