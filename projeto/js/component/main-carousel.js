@@ -12,34 +12,24 @@
   DOM (Document Object Model) - document
 */
 
-var $bullet = document.querySelectorAll('.bullet')
-var $bulletIsActive = document.querySelector('.bullet.-isActive')
-var $cardIsActive = document.querySelector('.card.-isActive')
+var $bullet = document.querySelectorAll(".bullet");
+var $bulletIsActive = document.querySelector(".bullet.-isActive");
+var $cardIsActive = document.querySelector(".card.-isActive");
 
-console.log($cardIsActive)
-
-$bullet.forEach((item) => {
-  item.addEventListener('click', clickInBullet)
-})
+$bullet.forEach(item => {
+  item.addEventListener("click", clickInBullet);
+});
 
 function clickInBullet() {
-  var $bulletClicked = this
+  var $bulletClicked = this;
 
-  $bulletIsActive.classList.remove('-isActive')
-  $bulletClicked.classList.add('-isActive')
-  $bulletIsActive = $bulletClicked
+  $bulletIsActive.classList.remove("-isActive");
+  $bulletClicked.classList.add("-isActive");
+  $bulletIsActive = $bulletClicked;
 
-  $cardIsActive.classList.remove('-isActive')
-  var idCard = $bulletClicked.querySelector('a').getAttribute('href')
-  var $targetCard = document.querySelector(idCard)
-  $targetCard.classList.add('-isActive')
-  $cardIsActive = $targetCard
+  $cardIsActive.classList.remove("-isActive");
+  var idCard = $bulletClicked.querySelector("a").getAttribute("href");
+  var $targetCard = document.querySelector(idCard);
+  $targetCard.classList.add("-isActive");
+  $cardIsActive = $targetCard;
 }
-
-
-
-
-
-
-
-
