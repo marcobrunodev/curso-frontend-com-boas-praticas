@@ -1,31 +1,30 @@
 /* #btn = procurando no HTML uma tag que tenha o atributo id com o valor btn */
 /* .btn = prpcurando todos as tags que tem o atributo class com o valor btn dentro dela */
 .main-btn {
-    display: inline-block;
-    padding: 14px 45px 14px 45px;
-    border-radius: 100px;
-    margin-right: 0;
-    border: 1px solid #FFF;
-    background-color: #754ef9;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-decoration: none;
-    opacity: 0.9;
-    cursor: pointer;
-    font-size: 15px;
+  display: inline-block;
+  padding: 14px 45px 14px 45px;
+  border-radius: 100px;
+  margin-right: 0;
+  background-color: #754ef9;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 0.9;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 .main-btn:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .main-btn.-card {
-    border-radius: 0;
-    padding: 9px 35px;
-    font-size: 11px;
+  border-radius: 0;
+  padding: 9px 35px;
+  font-size: 11px;
 }
 
 .main-btn a {
-    color: inherit;
-    text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
