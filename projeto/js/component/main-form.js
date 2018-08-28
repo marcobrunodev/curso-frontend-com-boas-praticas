@@ -25,7 +25,18 @@ var $input = $mainForm.querySelector(".input");
 $mainForm.addEventListener("submit", function(event) {
   event.preventDefault();
 
-  if ($input.value === "") {
-    console.log("Preencha o campo do email com um email :-)");
+  if ($input.value === "" && !$mainForm.querySelector(".main-error")) {
+    // var $mainError = document.createElement("span");
+    // $mainError.classList.add("main-error");
+    // $mainError.textContent = "Preecha o campo acima com um email";
+
+    // $mainForm.appendChild($mainError);
+    var content = "Preecha o campo acima com um email";
+
+    var $mainError = `
+      <span class="main-error">${content}</span>
+    `;
+
+    $mainForm.innerHTML = $mainForm.innerHTML + $mainError;
   }
 });
