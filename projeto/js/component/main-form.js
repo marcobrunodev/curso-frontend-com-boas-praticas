@@ -22,6 +22,10 @@
 var $mainForm = document.querySelector(".main-form");
 var $input = $mainForm.querySelector(".input");
 
-$mainForm.addEventListener("submit", function() {
-  console.log("ae");
+$mainForm.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  if ($input.value === "") {
+    console.log("Preencha o campo do email com um email :-)");
+  }
 });
