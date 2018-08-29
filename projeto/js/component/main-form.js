@@ -29,14 +29,20 @@ $mainForm.addEventListener("submit", function(event) {
     // var $mainError = document.createElement("span");
     // $mainError.classList.add("main-error");
     // $mainError.textContent = "Preecha o campo acima com um email";
-
     // $mainForm.appendChild($mainError);
-    var content = "Preecha o campo acima com um email";
 
+    var content = "O campo acima não pode ficar vázio. Coloque seu email :-)";
     var $mainError = `
       <span class="main-error">${content}</span>
     `;
 
     $mainForm.innerHTML = $mainForm.innerHTML + $mainError;
   }
+});
+
+$mainForm.addEventListener("input", event => {
+  var $target = event.target;
+  var $mainError = $mainForm.querySelector(".main-error");
+
+  if ($target.tagName === "INPUT" && $mainError) $mainError.remove();
 });
