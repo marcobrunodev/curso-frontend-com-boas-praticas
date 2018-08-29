@@ -25,18 +25,15 @@ var $input = $mainForm.querySelector(".input");
 $mainForm.addEventListener("submit", function(event) {
   event.preventDefault();
 
+  var isEmail = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
   if ($input.value === "" && !$mainForm.querySelector(".main-error")) {
-    // var $mainError = document.createElement("span");
-    // $mainError.classList.add("main-error");
-    // $mainError.textContent = "Preecha o campo acima com um email";
-    // $mainForm.appendChild($mainError);
-
-    var content = "O campo acima não pode ficar vázio. Coloque seu email :-)";
-    var $mainError = `
-      <span class="main-error">${content}</span>
-    `;
-
-    $mainForm.innerHTML = $mainForm.innerHTML + $mainError;
+    createMsgError("Por favor, preencha o campo acima");
+  } else if (
+    !$input.value.match(isEmail) &&
+    !$mainForm.querySelector(".main-error")
+  ) {
+    createMsgError("Por favor, digite um email válido");
   }
 });
 
@@ -46,3 +43,12 @@ $mainForm.addEventListener("input", event => {
 
   if ($target.tagName === "INPUT" && $mainError) $mainError.remove();
 });
+
+function createMsgError(content) {
+  var $mainError = document.createElement("span");
+
+  $mainError.classList.add("main-error");
+  $mainError.textContent = content;
+
+  $mainForm.insertBefore($mainError, null);
+}
