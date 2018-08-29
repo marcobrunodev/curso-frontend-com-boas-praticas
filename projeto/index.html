@@ -10,6 +10,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/settings.css">
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
 
@@ -23,6 +25,7 @@
     <link rel="stylesheet" href="css/objects/main-subtitle.css">
     <link rel="stylesheet" href="css/objects/main-figure.css">
     <link rel="stylesheet" href="css/objects/main-msg.css">
+    <link rel="stylesheet" href="css/objects/main-logo.css">
 
     <link rel="stylesheet" href="css/components/main-btn.css">
     <link rel="stylesheet" href="css/components/main-header.css">
@@ -36,18 +39,19 @@
     <link rel="stylesheet" href="css/components/main-expand.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
 </head>
 
 <body>
     <!-- header>h1{Marco Bruno}+nav>a*3 -->
     <header class="main-header">
         <!-- h1{Marco Bruno} -->
-        <h1 class="logo">Marco Bruno</h1>
+        <h1 class="main-logo">Marco Bruno</h1>
 
         <!-- nav>a*3 -->
         <nav class="main-menu">
             <a class="item" href="">Sobre</a>
-            <a class="item" href="">Portifolio</a>
+            <a class="item" href="">Portfolio</a>
             <button class="main-btn">Download CV</button>
         </nav>
     </header>
@@ -229,6 +233,29 @@
             <input type="submit" value="Enviar" class="main-btn -card btn">
         </form>
     </section>
+
+    <!-- footer.main-footer>h1.main-logo+(nav.navigation>a.action*3)ul.social>li.item*3>a -->
+    <footer class="main-footer">
+        <h1 class="main-logo">Marco Bruno</h1>
+
+        <nav class="navigation">
+            <a href="" class="action">Sobre</a>
+            <a href="" class="action">Portfolio</a>
+            <a href="" class="action">Download CV</a>
+        </nav>
+
+        <ul class="social">
+            <li class="item">
+                <a class="link" href="http://facebook.com/marco.bruno.br">Facebook do Marco Bruno</a>
+            </li>
+            <li class="item">
+                <a class="link" href="http://twitter.com/marcobrunobr">Twitter do Marco Bruno</a>
+            </li>
+            <li class="item">
+                <a class="link" href="http://linkedin.com/in/marcobrunobr">Linkedin do Marco Bruno</a>
+            </li>
+        </ul>
+    </footer>
 
     <script src="js/component/main-expand.js"></script>
     <script src="js/component/main-carousel.js"></script>

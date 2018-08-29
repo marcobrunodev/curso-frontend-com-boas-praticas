@@ -5,7 +5,7 @@
   padding: 14px 45px 14px 45px;
   border-radius: 100px;
   margin-right: 0;
-  background-color: #754ef9;
+  background-color: var(--primary-color);
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
