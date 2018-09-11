@@ -1,11 +1,11 @@
 h1 {
-    font-family: 'Open sans', sans-serif;
-    color: #754EF9;
-    text-transform: uppercase;
-    font-size: 18px;
+  font-family: "Open sans", sans-serif;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 18px;
 
-    transform-origin: left center;
-    transform: rotate(90deg);
-    position: absolute;
-    right: -100px;
+  transform-origin: left center;
+  transform: rotate(90deg);
+  position: absolute;
+  right: -100px;
 }

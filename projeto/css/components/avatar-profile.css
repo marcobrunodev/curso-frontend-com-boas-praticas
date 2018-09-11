@@ -1,0 +1,17 @@
+.avatar-profile {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 70px;
+  border: 18px solid var(--primary-color);
+  float: left;
+  background-color: #fff;
+}
+
+.avatar-profile .photo {
+  width: 352px;
+  height: 352px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 24px solid var(--primary-color);
+  float: left;
+}

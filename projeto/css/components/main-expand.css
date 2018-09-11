@@ -1,0 +1,16 @@
+.main-expand {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.main-expand > .subtitle {
+  font-size: 11px;
+  display: inline;
+  vertical-align: baseline;
+}
+
+.main-expand > .picture {
+  width: 24px;
+}

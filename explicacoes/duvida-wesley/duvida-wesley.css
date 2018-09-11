@@ -1,0 +1,69 @@
+body {
+    background-color:#fafafa;
+    overflow:hidden;
+  }
+  
+  section {
+    font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size:18px;
+    text-align: center;
+  }
+  
+  section ul {
+      padding: 0;
+  }
+
+  section li{
+    list-style: none;
+    text-transform:lowercase;
+    display:inline-block;
+    
+  }
+  
+  section ul li a {
+    text-decoration: none;
+  }
+  
+  section ul li a:hover, section p:hover{
+    color:#adadad;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+  section ul li a:link, a:active, a:visited, section p{ 
+    color: #626262; 
+    text-decoration: none;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all   0.6s ease-out;
+    transition: all 0.6s ease-out;
+  }
+  
+  section p {
+      font-family: QuicksandLight;
+      font-size: 99px;
+      text-transform: uppercase;
+      line-height: 50px;
+      border-top:10px;
+  }
+
+  section figure {
+    display: inline-block;
+    
+   
+    overflow: hidden;
+    
+  }
+
+  section img {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 5px double red;
+  }
+
+  

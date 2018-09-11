@@ -1,0 +1,21 @@
+.main-form {
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-form .input {
+  box-sizing: border-box;
+  width: 380px;
+  height: 55px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: 1px solid #744df7;
+  font-size: 15px;
+  color: rgba(24, 24, 24, 0.8);
+}
+
+.main-form .btn {
+  height: 55px;
+}

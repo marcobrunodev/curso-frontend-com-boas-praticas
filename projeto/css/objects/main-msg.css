@@ -1,0 +1,15 @@
+.main-msg {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.-error {
+  color: #ee5253;
+}
+
+.-success {
+  color: #44bd32;
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.894 19.053">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: var(--primary-color);
+      }
+    </style>
+  </defs>
+  <g id="Facebook_icon" data-name="Facebook icon" transform="translate(-37.29)">
+    <path id="f_1_" class="cls-1" d="M43.712,19.053V10.363h2.916l.437-3.388H43.712V4.812c0-.981.271-1.649,1.679-1.649h1.792V.133A24.3,24.3,0,0,0,44.571,0c-2.586,0-4.357,1.579-4.357,4.477v2.5H37.29v3.388h2.925v8.691Z"/>
+  </g>
+</svg>

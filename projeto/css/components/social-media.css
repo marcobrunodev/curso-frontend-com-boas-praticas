@@ -1,0 +1,28 @@
+.social-media {
+    padding-top: 250px;
+}
+
+.social-media .item:not(:last-child) {
+    margin-bottom: 26px;
+}
+
+.social-media .action {
+    display: block;
+    text-indent: -9999px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+}
+
+.social-media .-facebook {
+    background-image: url(../../img/facebook.svg);
+}
+
+.social-media .-twitter {
+    background-image: url(../../img/twitter.svg);
+}
+
+.social-media .-linkedin {
+    background-image: url(../../img/linkedin.svg);
+}

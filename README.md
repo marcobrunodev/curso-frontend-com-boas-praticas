@@ -124,3 +124,4 @@ A cada componente que for finalizado, será proposto um desafio.
     - Está no GitHub => https://github.com/CollabCodeTech/curso-basico-html-css-js
 - Que horas começa e que horas termina?
     - Depente do meu filho, mas ele dorme entre 20:00 e 21:00 e o começo da live será dentro deste horário. Vai termianar entre 00:00 e 01:00.
+
